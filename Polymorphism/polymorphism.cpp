@@ -27,11 +27,12 @@ public:
 		height = aHeight;
 	}
 
-	// virtual funciton that will polymorph according to what class they belong to
+	// virtual funciton that will polymorph according to what class they belong to and return an area
 	virtual double area() {
 		return 1;
 	}
 
+	// virtual function that will polymorph according to what class they belong to and return a name
 	virtual string getName() {
 		return name;
 	}
